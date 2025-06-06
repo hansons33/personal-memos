@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "ES2022",
+      "module": "nodenext",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "outDir": "dist",
+      "skipLibCheck": true,
+      "declaration": true,
+    },
+    "include": ["src"]
+  }

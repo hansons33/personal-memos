@@ -1,0 +1,17 @@
+{
+    "name": "user-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "@micro-memos/validation": "workspace:*",
+        "@micro-memos/database": "workspace:*",
+        "@micro-memos/middlewares": "workspace:*"
+    },
+    "scripts": {
+        "dev": "ts-node-dev src/index.ts --loader ts-node/esm"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
